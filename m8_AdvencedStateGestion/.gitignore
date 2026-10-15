@@ -1,0 +1,18 @@
+# Dart and Flutter generated files
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Test coverage
+coverage/
+
+# Operating system files
+.DS_Store
