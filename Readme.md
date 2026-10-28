@@ -1,8 +1,12 @@
-# Lessons of flutter tought by ai
+# Lessons of flutter taught by AI
 
-17 Modules prepared by ai to learn flutter developpment
+### Summary
+17 Modules prepared by AI to learn flutter development
 
 ### Gitignore
 
-I will remove all the excess folders that I dont make modifications in.
+I will remove all the excess folders that I don't make modifications in.
 For the size sake.
+
+### ReadMe
+Each directory will have their own Readme to explain each exercises more deeply
