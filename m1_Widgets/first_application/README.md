@@ -1,17 +1,23 @@
 # first_application
 
-A new Flutter project.
+A project to get started with the flutter basics
 
-## Getting Started
+## M1: 1.0 Getting Started
 
-This project is a starting point for a Flutter application.
+The first thing was to learn what is a widget and how to use them.
 
-A few resources to get you started if this is your first Flutter project:
+## M1: 1.1 Learn more basics Widgets
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Second exercise was to make a Presentation card with those widgets:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    -Text
+    -Icon
+    -Container
+    -Padding
+    -SizedBox
+
+## M1: 1.2 Build an interface with widget materials
+
+Third is to use widget materials implemented in Flutter
+
+
