@@ -18,6 +18,15 @@ Second exercise was to make a Presentation card with those widgets:
 
 ## M1: 1.2 Build an interface with widget materials
 
-Third is to use widget materials implemented in Flutter
+Third is to use widget materials implemented in Flutter. I will have to use or to know :
+
+    -What is the purpose of MaterialApp and Scaffold
+    -Use AppBar
+    -Use Card
+    -Use ListTitle
+    -Use Devider
+    -When I should use a Widget Material and when I should create a custom Componant
+
+
 
 

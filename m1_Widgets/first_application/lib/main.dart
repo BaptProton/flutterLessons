@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import './Widgets/ContainerBox.dart';
+
+import 'Widgets/personal_text.dart';
+import 'Widgets/personal_info_tile.dart';
 
 // <<<<<<<<<<<<<<<<<<<<<<<< 1.0 >>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -112,5 +114,70 @@ import './Widgets/ContainerBox.dart';
 //   }
 // }
 
-
 // <<<<<<<<<<<<<<<<<<<<<<<< 1.2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.blueAccent,
+          leading: Icon(Icons.arrow_back, color: Colors.white, size: 25),
+          title: Text('My Account', style: TextStyle(color: Colors.white)),
+        ),
+        body: Center(child: const AccountInfos()),
+        bottomSheet: Padding(
+          padding: EdgeInsets.all(16),
+          child: Text(
+            "Account information",
+            style: TextStyle(color: Colors.black, fontSize: 16),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class AccountInfos extends StatelessWidget {
+  const AccountInfos({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      color: Colors.grey,
+      elevation: 10,
+      child: Padding(
+        padding: EdgeInsets.all(20),
+        child: Column(
+          mainAxisSize: .min,
+          children: [
+            PersonalInfoTile(
+              icon: Icons.person,
+              title: "Alex Martin",
+              subtitle: "Personal Account",
+            ),
+            const Divider(),
+            PersonalInfoTile(
+              icon: Icons.mail,
+              title: "Email address",
+              subtitle: "alex@example.com",
+            ),
+            const Divider(),
+            PersonalInfoTile(
+              icon: Icons.location_on_outlined,
+              title: "Country",
+              subtitle: "Switzerland",
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
